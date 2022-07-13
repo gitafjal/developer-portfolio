@@ -15,10 +15,13 @@ h1 {
 
 .flexible-container {
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 140px;
 }
 
-.experience-area {}
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
 
 .half-width {
     width: 50%;
@@ -63,4 +66,22 @@ h1 {
 
 .small-pad {
     padding-right: 80px;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px 10px gray;
+
+}
+
+#f-developer {
+    border-left: 7px solid blue;
+}
+
+#j-developer {
+    border-left: 7px solid tomato;
 }
