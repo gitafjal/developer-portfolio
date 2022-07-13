@@ -85,3 +85,7 @@ h1 {
 #j-developer {
     border-left: 7px solid tomato;
 }
+
+footer p {
+    text-align: center;
+}
